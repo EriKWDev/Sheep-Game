@@ -1,0 +1,31 @@
+Initialize engine version: 4.5.4f1 (e036f44c54c9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660   (ID=0x11c0)
+    Vendor:   NVIDIA
+    VRAM:     1988 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Erik\Documents\A storm of sheep - Copy\PixelSheepGame B1.0.3_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.151 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1200 at -1920,-115
+<RI> Initializing input.
+<RI> Input initialized.
+WARNING: Shader Unsupported: 'Hidden/Glow Downsample' - Pass '' shader state not supported
+UnloadTime: 1.312703 ms
+System memory in use before: 46.9 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 46.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 602.
+Total: 1.244833 ms (FindLiveObjects: 0.022181 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.457542 ms  DeleteObjects: 0.013242 ms)
+

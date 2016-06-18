@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 59d21efa2733e3a478aeca2fe41fd524
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BigGraveyardGround1
+    21300002: FloatingGraveyardGround1
+    21300004: GraveyardBlock2
+    21300006: GraveyardBlock1
+    21300008: Wizard1Idle1
+    21300010: Wizard1Idle2
+    21300012: Wizard1Idle3
+    21300014: Wizard1Idle4
+    21300016: Wizard1Idle5
+    21300018: Wizard1Magic1
+    21300020: Wizard1Magic2
+    21300022: Wizard1Magic3
+    21300024: Wizard1Magic4
+    21300026: Wizard1Magic5
+    21300028: Wizard1Magic6
+    21300030: Wizard1Magic7
+    21300032: Wizard1Magic8
+    21300034: Wizard1Magic9
+    21300036: Wizard1Magic10
+    21300038: Wizard1Magic11
+    21300040: Wizard1Magic9.5
+    21300042: Wizard1Magic10.5
+    21300044: Wizard1Magic12
+    21300046: Wizard1Magic13
+    21300048: Wizard1Magic14
+    21300050: Wizard1Magic15
+    21300052: Wizard1Magic13.5
+    21300054: GraveYardSpriteSheet_27
+    21300056: StreetLight1
+    21300058: StreetLight2
+    21300060: StreetLight3
+    21300062: Tombstone1
+    21300064: Tombstone2
+    21300066: Tombstone3
+    21300068: Tombstone4
+    21300070: Candle1
+    21300072: Candle2
+    21300074: candle3
+    21300076: CandleLightAnim1
+    21300078: CandleLightAnim3
+    21300080: CandleLightAnim4
+    21300082: CandleLightAnim5
+    21300084: CandleLightAnim6
+    21300086: Wizard1Sad1
+    21300088: Wizard1Sad2
+    21300090: Wizard1Sad3
+    21300092: Wizard1Sad4
+    21300094: Wizard1Stand1
+    21300096: Wizard1Stand2.5
+    21300098: Wizard1Stand2
+    21300100: Wizard1Stand3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 8
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BigGraveyardGround1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 419
+        width: 619
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FloatingGraveyardGround1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 5
+        width: 139
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraveyardBlock2
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 6
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraveyardBlock1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 6
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Idle1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 380
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Idle2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 377
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Idle3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 339
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Idle4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 338
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Idle5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 293
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 260
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 259
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 258
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 257
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic5
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 256
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic6
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 255
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 255
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 256
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 254
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic10
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 253
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic11
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 253
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic9.5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 218
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic10.5
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 217
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic12
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 253
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic13
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 252
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic14
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 252
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic15
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 252
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Magic13.5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 216
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraveYardSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 279
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: StreetLight1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 116
+        width: 27
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: StreetLight2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 117
+        width: 47
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: StreetLight3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 119
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tombstone1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 374
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tombstone2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 374
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tombstone3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 374
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tombstone4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 374
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Candle1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 374
+        width: 1
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Candle2
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 377
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: candle3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 381
+        width: 1
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleLightAnim1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 378
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleLightAnim3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 378
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleLightAnim4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 378
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleLightAnim5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 378
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CandleLightAnim6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 378
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Sad1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Sad2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Sad3
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Sad4
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 334
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Stand1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 334
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Stand2.5
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 298
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Stand2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 334
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wizard1Stand3
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
