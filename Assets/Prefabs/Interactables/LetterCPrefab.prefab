@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Item
+  m_Name: LetterCPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80f185c3a6fbd3d42a47eca647406fc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  posUp: {x: 0, y: 0, z: 0}
+  posDown: {x: 0, y: 0, z: 0}
+  value: 0
+  originalValue: 0.5
   value2: 0.5
+  go: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -68,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300006, guid: 8640535769510304d9dc6d64ccf45136, type: 3}
+  m_Sprite: {fileID: 21300036, guid: 8640535769510304d9dc6d64ccf45136, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 8640535769510304d9dc6d64ccf45136
+timeCreated: 1466593419
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: AppleSprite
@@ -20,6 +22,7 @@ TextureImporter:
     21300030: FinalPortalDecorationSprite
     21300032: Start_Game_Sprite
     21300034: Continue_Game_Sprite
+    21300036: LetterCSprite
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -33,11 +36,14 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 1024
@@ -48,12 +54,14 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 8
   alphaIsTransparency: 1
@@ -69,8 +77,9 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: ChestInventorySprite
       rect:
         serializedVersion: 2
@@ -79,18 +88,20 @@ TextureImporter:
         width: 30
         height: 14
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: SignSprite
       rect:
         serializedVersion: 2
         x: 607
-        y: 1
+        y: 2
         width: 13
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LetterESprite
       rect:
         serializedVersion: 2
@@ -99,28 +110,31 @@ TextureImporter:
         width: 7
         height: 9
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: ChestSprite
       rect:
         serializedVersion: 2
         x: 607
-        y: 21
+        y: 22
         width: 13
         height: 9
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: Cursor1Sprite
       rect:
         serializedVersion: 2
-        x: 540
+        x: 539
         y: 4
-        width: 7
+        width: 8
         height: 8
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: Cursor2Sprite
       rect:
         serializedVersion: 2
@@ -129,8 +143,9 @@ TextureImporter:
         width: 3
         height: 3
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: OrangePortalSprite
       rect:
         serializedVersion: 2
@@ -139,8 +154,9 @@ TextureImporter:
         width: 13
         height: 3
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: BluePortalSprite
       rect:
         serializedVersion: 2
@@ -149,8 +165,9 @@ TextureImporter:
         width: 13
         height: 3
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: BluePortalDecorationSprite1
       rect:
         serializedVersion: 2
@@ -159,8 +176,9 @@ TextureImporter:
         width: 5
         height: 5
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: OrangePortalDecorationSprite1
       rect:
         serializedVersion: 2
@@ -169,8 +187,9 @@ TextureImporter:
         width: 5
         height: 5
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: OrangePortalDecorationSprite2
       rect:
         serializedVersion: 2
@@ -179,8 +198,9 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: OrangePortalDecorationSprite3
       rect:
         serializedVersion: 2
@@ -189,8 +209,9 @@ TextureImporter:
         width: 3
         height: 3
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: BluePortalDecorationSprite2
       rect:
         serializedVersion: 2
@@ -199,8 +220,9 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: BluePortalDecorationSprite3
       rect:
         serializedVersion: 2
@@ -209,8 +231,9 @@ TextureImporter:
         width: 3
         height: 3
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: FinalPortalDecorationSprite
       rect:
         serializedVersion: 2
@@ -219,8 +242,9 @@ TextureImporter:
         width: 3
         height: 3
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: Start_Game_Sprite
       rect:
         serializedVersion: 2
@@ -229,8 +253,9 @@ TextureImporter:
         width: 49
         height: 12
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: Continue_Game_Sprite
       rect:
         serializedVersion: 2
@@ -239,7 +264,22 @@ TextureImporter:
         width: 49
         height: 12
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: LetterCSprite
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 11
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,32 +2,52 @@
 using System.Collections;
 
 public class LetterBehaviour : MonoBehaviour {
+	[SerializeField]
 	private Vector3 posUp;
+	[SerializeField]
 	private Vector3 posDown;
+	[SerializeField]
 	private float value;
+	[SerializeField]
 	private float originalValue = 0.5F;
-	public float value2 = 0.3F;
+	[SerializeField]
+	private float value2 = 0.3F;
+	[SerializeField]
 	private bool go = false;
 
 	void Start() {
 		value = originalValue;
 		if (Random.Range (0, 2) == 1) {
-			posUp = new Vector3 (transform.position.x, transform.position.y + value2, transform.position.z);
-			posDown = new Vector3 (transform.position.x, transform.position.y - value2, transform.position.z);	
+			posUp = new Vector3 (transform.localPosition.x, transform.localPosition.y + value2, transform.localPosition.z);
+			posDown = new Vector3 (transform.localPosition.x, transform.localPosition.y - value2, transform.localPosition.z);	
 		}
 		else {
-			posUp = new Vector3 (transform.position.x, transform.position.y - value2, transform.position.z);
-			posDown = new Vector3 (transform.position.x, transform.position.y + value2, transform.position.z);
+			posUp = new Vector3 (transform.localPosition.x, transform.localPosition.y - value2, transform.localPosition.z);
+			posDown = new Vector3 (transform.localPosition.x, transform.localPosition.y + value2, transform.localPosition.z);
 		}
 	}
 
 	void Update () {
-		value -= 1F * Time.deltaTime;
+		value -= Time.deltaTime;
+
 		if (value <= 0F) {
 			go = !go;
 			value = originalValue;
 		}
-		if(go) transform.position = Vector3.Lerp (transform.position, posUp, Time.deltaTime * 0.5F);
-		if(!go) transform.position = Vector3.Lerp (transform.position, posDown, Time.deltaTime * 0.5F);
+
+		if(go) transform.localPosition = Vector3.Lerp (transform.localPosition, posUp, Time.deltaTime * 0.5F);
+		if(!go) transform.localPosition = Vector3.Lerp (transform.localPosition, posDown, Time.deltaTime * 0.5F);
+	}
+
+	public void resetValues () {
+		value = originalValue;
+		if (Random.Range (0, 2) == 1) {
+			posUp = new Vector3 (transform.localPosition.x, transform.localPosition.y + value2, transform.localPosition.z);
+			posDown = new Vector3 (transform.localPosition.x, transform.localPosition.y - value2, transform.localPosition.z);	
+		}
+		else {
+			posUp = new Vector3 (transform.localPosition.x, transform.localPosition.y - value2, transform.localPosition.z);
+			posDown = new Vector3 (transform.localPosition.x, transform.localPosition.y + value2, transform.localPosition.z);
+		}
 	}
 }
