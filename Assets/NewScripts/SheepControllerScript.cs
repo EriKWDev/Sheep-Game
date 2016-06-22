@@ -1,25 +1,34 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("ErikWDev/Sheep Controller Script")]
+[DisallowMultipleComponent]
 public class SheepControllerScript : MonoBehaviour {
 
-	public float maxSpeed = 10f;
-	bool facingRight = true;
+	[SerializeField]
+	private float maxSpeed = 10f;
+	[SerializeField]
+	private bool facingRight = true;
 
-	Animator anim;
+	private Animator anim;
 
 	public bool grounded = false;
-	public Transform groundCheck;
-	float groundRadius = 0.2f;
+	[SerializeField]
+	private Transform groundCheck;
+	[SerializeField]
+	private float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
-	public float jumpForce = 700f;
+	[SerializeField]
+	private float jumpForce = 700f;
 
-	public Transform edgeCheckFront;
-	public Transform edgeCheckBack;
+	[SerializeField]
+	private Transform edgeCheckFront;
+	[SerializeField]
+	private Transform edgeCheckBack;
 	public Vector3 spawnPoint;
-	bool onEdge = false;
-
-	public int cameraManipulators = 0;
+	[SerializeField]
+	private bool onEdge = false;
+	public CameraController myCamera;
 
 	void Start () {
 		anim = GetComponent<Animator> ();
