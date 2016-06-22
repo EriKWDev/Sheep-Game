@@ -16,13 +16,6 @@ public class MainComponent : MonoBehaviour {
 	public int fadeDir = -1;			// the direction to fade: in = -1 or out = 1
 
 	public int playerHealth;
-	public GameObject cursorObject;
-
-	void Start(){
-		Cursor.visible = !debug;
-		cursorObject.GetComponent<CursorBehaviour> ().showCursor = debug;
-		Instantiate (cursorObject);
-	}
 
 	void OnGUI()
 	{

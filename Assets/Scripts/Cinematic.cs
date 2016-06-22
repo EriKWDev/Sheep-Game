@@ -42,7 +42,6 @@ public class Cinematic : MonoBehaviour {
 
 	public IEnumerator BeginCinematic() {
 		if (!hasAlreadyDone && !isInCinematic) {
-			GameObject.FindGameObjectWithTag ("Cursor").GetComponent<CursorBehaviour> ().showCursor = false;
 			GameObject character = GameObject.Find("Character");
 			isInCinematic = true;
 

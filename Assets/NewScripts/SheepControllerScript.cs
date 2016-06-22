@@ -19,7 +19,6 @@ public class SheepControllerScript : MonoBehaviour {
 	public Vector3 spawnPoint;
 	bool onEdge = false;
 
-	public Transform door;
 	public int cameraManipulators = 0;
 
 	void Start () {
@@ -55,9 +54,6 @@ public class SheepControllerScript : MonoBehaviour {
 		if (grounded && Input.GetKeyDown (KeyCode.Space)) {
 			anim.SetBool ("Ground", false);
 			GetComponent<Rigidbody2D>().AddForce (new Vector2 (0, jumpForce));
-		}
-		if (Input.GetKeyDown (KeyCode.F)) {
-			GameObject.Find("_GM").GetComponent<MainComponent> ().toggleEffects();		
 		}
 		if (Input.GetKeyDown (KeyCode.R)) {
 			Camera.main.GetComponent<GlowEffect> ().newColor = new Color(Random.Range(0.0F,1.0F), Random.Range(0.0F,1.0F), Random.Range(0.0F,1.0F));		

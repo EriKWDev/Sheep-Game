@@ -31,7 +31,6 @@ public class Interactable : MonoBehaviour {
 
 	void OnTriggerExit2D(Collider2D other) {
 		if (other.gameObject == GameObject.Find ("Character")) {
-			GameObject.FindGameObjectWithTag ("Cursor").GetComponent<CursorBehaviour> ().showCursor = false;
 			isInRange = false;
 			if(summonFloatingSprite) Destroy (letter);
 		}
