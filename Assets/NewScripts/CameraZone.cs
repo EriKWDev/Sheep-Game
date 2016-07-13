@@ -64,7 +64,7 @@ public class CameraZone : MonoBehaviour {
 		}
 		if (requireKeyToActivate) {
 			if (isInside) {
-				letter.transform.position = playerCollider.gameObject.transform.position;
+				letter.transform.position = playerCollider.gameObject.transform.position + Vector3.up * 1.2f;
 				letter.SetActive (true);
 			}
 			if (isInside && Input.GetKey (keyToActivate) || !isInside) {
